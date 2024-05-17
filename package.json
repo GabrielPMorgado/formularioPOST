@@ -1,0 +1,24 @@
+{
+  "name": "formulariopost",
+  "version": "1.0.0",
+  "description": "Processamento de requisições do tipo POST com validação dos dados do formulário.processar requisições do tipo POST, validar os dados do formulário no lado do servidor, implemente um servidor HTTP capaz de oferecer um formulário de cadastro de Empresas.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielPMorgado/formularioPOST.git"
+  },
+  "author": "Gabriel Morgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielPMorgado/formularioPOST/issues"
+  },
+  "homepage": "https://github.com/GabrielPMorgado/formularioPOST#readme",
+  "dependencies": {
+    "node": "^22.2.0"
+  }
+}
