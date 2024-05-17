@@ -21,7 +21,7 @@ function formulario(requisicao, resposta){
     const endereco = requisicao.body.endereco;
 
     
-    if (nome && sobrenome && usuario && cidade && estado && cep) 
+    if (cnpj && razao_social && nome_fantasia && cidade && uf && cep && email && telefone && endereco) 
     {
         listaUsuarios.push({
             cnpj: cnpj,
