@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/GabrielPMorgado/formularioPOST#readme",
   "dependencies": {
+    "express": "^4.19.2",
     "node": "^22.2.0"
   }
 }
