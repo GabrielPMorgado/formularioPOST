@@ -6,72 +6,69 @@
     <title>Formulario</title>
     <style>
         body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
 
-.container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
 
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
+        form {
+            display: flex;
+            flex-direction: column;
+        }
 
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
 
-input {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
 
-.buttons {
-    display: flex;
-    justify-content: space-between;
-}
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
 
-button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    width: 48%;
-}
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            width: 48%;
+        }
 
-button:hover {
-    background-color: #45a049;
-}
+        button:hover {
+            background-color: #45a049;
+        }
 
-button[type="button"] {
-    background-color: #f44336;
-}
+        button[type="button"] {
+            background-color: #f44336;
+        }
 
-button[type="button"]:hover {
-    background-color: #e53935;
-}
+        button[type="button"]:hover {
+            background-color: #e53935;
+        }
 
     </style>
 </head>
@@ -83,33 +80,33 @@ button[type="button"]:hover {
             <label for="cnpj">CNPJ:</label>
             <input type="text" id="cnpj" name="cnpj" required>
 
-            <label for="razao_social">Razão Social ou Nome do Fornecedor:</label>
+            <label method="POST" for="razao_social">Razão Social ou Nome do Fornecedor:</label>
             <input type="text" id="razao_social" name="razao_social" placeholder="Moraes & irmãos Ltda" required>
 
-            <label for="nome_fantasia">Nome Fantasia:</label>
+            <label method="POST" for="nome_fantasia">Nome Fantasia:</label>
             <input type="text" id="nome_fantasia" name="nome_fantasia" placeholder="Loja do 1,99" required>
 
-            <label for="endereco">Endereço:</label>
+            <label method="POST" for="endereco">Endereço:</label>
             <input type="text" id="endereco" name="endereco" required>
 
-            <label for="cidade">Cidade:</label>
+            <label method="POST" for="cidade">Cidade:</label>
             <input type="text" id="cidade" name="cidade" required>
 
-            <label for="uf">UF:</label>
+            <label method="POST" for="uf">UF:</label>
             <input type="text" id="uf" name="uf" maxlength="2" required>
 
-            <label for="cep">CEP:</label>
+            <label method="POST"  for="cep">CEP:</label>
             <input type="text" id="cep" name="cep" required>
 
-            <label for="email">Email:</label>
+            <label method="POST" for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="telefone">Telefone:</label>
+            <label method="POST"  for="telefone">Telefone:</label>
             <input type="tel" id="telefone" name="telefone" required>
 
             <div class="buttons">
                 <button type="submit">Cadastrar</button>
-                <button type="button" onclick="history.back()"href="./formulario.html" >Voltar</button>
+                <button type="button" onclick="history.back()">Voltar</button>
             </div>
         </form>
     </div>
